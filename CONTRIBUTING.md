@@ -10,6 +10,8 @@ questions about the CLA process, please refer to our [FAQ](https://cla.vmware.co
 
 ## Getting Started
 
+You'll need a Perl installation with required modules and a SharePoint site credentials set to work against.
+
 ## Contribution Flow
 
 This is a rough outline of what a contributor's workflow looks like:
@@ -68,6 +70,16 @@ notification when you git push.
 
 ### Code Style
 
+This code uses hard tabs.
+This code uses snake_case for variable and function names, and ALL CAPS for constants, similar to other Perl modules.
+A subroutine shall not exceed sixty lines including the inline documentation.
+
+Each test file name must be prefixed with two digits followed by a dash:
+* 0?- utility function tests
+* 1?- basic object tests
+* 2?- basic SharePoint interaction tests
+* 3?- SharePoint operations tests
+
 ### Formatting Commit Messages
 
 We follow the conventions on [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/).
@@ -81,3 +93,8 @@ and commits.
 When opening a new issue, try to roughly follow the commit message format conventions above.
 
 ## Repository Structure
+
+The perl library code is under lib/ following the Perl Module convention setup.
+The tests (and the configurations fot the tests) are under t/ . 
+The executables are in the scripts/ library. For each new executable, an entry needs to be added to Build.PL .
+
