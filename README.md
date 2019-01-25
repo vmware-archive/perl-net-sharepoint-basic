@@ -122,9 +122,11 @@ You can also look for information at:
 
 ## Releases & Major Branches
 
+The package is primarily released on CPAN, but may be released as an RPM or DEB as well. It may also be built as RPM or DEB by Linux distributions maintainers independently from us.
+
 ## Contributing
 
-The perl-net-sharepoint-basic project team welcomes contributions from the community. If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any
+The team welcomes contributions from the community. If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will update the issue when you open a Pull Request. For any
 questions about the CLA process, please refer to our [FAQ](https://cla.vmware.com/faq). For more detailed information,
 refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
