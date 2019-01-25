@@ -90,7 +90,8 @@ and commits.
 
 ## Reporting Bugs and Creating Issues
 
-When opening a new issue, try to roughly follow the commit message format conventions above.
+When opening a new issue, try to roughly follow the commit message format conventions above. The bugs should be filled via the request tracker of CPAN:
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-SharePoint-Basic
 
 ## Repository Structure
 
