@@ -28,9 +28,8 @@ t/32-download.t
 t/33-list.t
 t/34-makedir.t
 t/35-delete.t
+t/36-move.t
+t/37-copy.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
-Makefile.PL
-META.yml
-META.json
