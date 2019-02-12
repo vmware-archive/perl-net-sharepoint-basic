@@ -1041,7 +1041,7 @@ L<http://search.cpan.org/dist/Net-SharePoint-Basic/>
 
 =item * Repository
 
-L<https://github.com/...>
+L<https://github.com/vmware/perl-net-sharepoint-basic>
 
 =item * MSDN SharePoint REST API
 
