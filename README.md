@@ -119,6 +119,9 @@ You can also look for information at:
 
     Search CPAN
         http://search.cpan.org/dist/Net-SharePoint-Basic/
+	
+    GitHub Repository
+        https://github.com/vmware/perl-net-sharepoint-basic
 
 ## Releases & Major Branches
 
