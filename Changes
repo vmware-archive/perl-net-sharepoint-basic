@@ -3,3 +3,6 @@ Revision history for Net-SharePoint-Basic
 0.1    Wed Jan 30 12:51:34 PST 2019
        Version 0.1 stabilized
 
+0.11   Wed Feb 20 13:30:28 PST 2019
+       Version 0.11 - minor fixes in tests for Win32, Kwalitee suggestions, Synopsis additions of copy() and move()
+
