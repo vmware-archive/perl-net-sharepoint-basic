@@ -6,3 +6,5 @@ Revision history for Net-SharePoint-Basic
 0.11   Wed Feb 20 13:30:28 PST 2019
        Version 0.11 - minor fixes in tests for Win32, Kwalitee suggestions, Synopsis additions of copy() and move()
 
+0.12   Wed 07 Jun 2023 19:01:45 UTC
+       Version 0.12 - removed deprecated when-s, according to https://github.com/Perl/perl5/issues/20995
