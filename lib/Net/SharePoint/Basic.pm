@@ -7,7 +7,6 @@ use 5.10.1;
 use strict;
 use warnings FATAL => 'all';
 use utf8;
-use experimental qw(smartmatch);
 
 use Carp qw(carp croak confess cluck longmess shortmess);
 use File::Basename;
@@ -660,12 +659,9 @@ sub get_chunk_pattern ($$) {
 	my $chunk_n      = shift;
 	my $total_chunks = shift;
 
-	my $pattern;
-	for ($chunk_n) {
-		when (0)             { $pattern = 'start';    }
-		when ($total_chunks) { $pattern = 'finish';   }
-		default              { $pattern = 'continue'; }
-	}
+        my $pattern = $chunk_n == $total_chunks
+                ? 'finish' : $chunk_n == 0
+                ? 'start' : 'continue';
 
 	$PATTERNS{chunk}->{$pattern};
 }
