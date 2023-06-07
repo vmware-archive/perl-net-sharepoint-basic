@@ -35,11 +35,11 @@ Net::SharePoint::Basic - Basic interface to Microsoft SharePoint REST API
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =cut
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 our %PATTERNS = (
 	payload => "grant_type=client_credentials&client_id=%1\$s\@%3\$s&client_secret=%2\$s&resource=%4\$s/%5\$s\@%3\$s&scope=%4\$s/%5\$s\@%3\$s",
